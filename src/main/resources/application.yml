@@ -1,0 +1,8 @@
+server:
+  port: 5005
+
+rest:
+  clients:
+    mocks:
+      baseURL: http://localhost:3001/product
+      similarIdsPath: similarids
